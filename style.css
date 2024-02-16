@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+}
+
+aside{
+    width: 400px;
+    height: 700px;
+    padding: 5%;
+    background-color: aqua;
+    display: none;
+}
+
+aside h1{
+    margin: 15px 0;
+}
+
+aside p{
+    margin: 15px 0;
+}
+
+aside button{
+    padding: 8px;
+    border: 2px solid  black;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.menu{
+    width: 150px;
+    height: 60px;
+    margin: 0 10px;
+    border: 2px solid  black;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+.close{
+    width: 150px;
+    height: 60px;
+    color: aqua;
+    border: 3px solid  aqua;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.block{
+    display: block;
+}
+
